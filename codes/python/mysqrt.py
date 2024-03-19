@@ -1,5 +1,12 @@
 # Newton Method for computing square root
+"""
+Module to calculate sqrt using the Newton's Method
+
+"""
 def sqrt2(x):
+ """
+ sqrt function implementation
+ """
  s=1.0
  tol=2.2e-16
  for k in range(100):
